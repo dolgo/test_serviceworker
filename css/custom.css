@@ -1,0 +1,45 @@
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.table .row {
+    display: table-row;
+}
+
+.table .row .cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#indicator {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#indicator.offline {
+    background-color: #b00;
+}
+
+#indicator.online {
+    background-color: #0a0;
+}
